@@ -103,6 +103,10 @@
 
 @media screen and (max-width: 768px) {
 
+    h1 {
+        line-height: 35px;
+    }
+
     .header__desktop {
         display: none;
     }
