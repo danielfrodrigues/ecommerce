@@ -91,7 +91,7 @@ header .container > div {
     height: 100%;
     flex-direction: column;
     align-items: flex-start;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: end;
     padding-bottom: 32px;
     gap: 15px;
