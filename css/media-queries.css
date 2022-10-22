@@ -218,7 +218,11 @@
     }
     
     .products__container {
-        padding: 30px 20px;
+        padding: 30px 10px;
+    }
+
+    .products__container__list__product {
+        justify-content: space-around;
     }
 
     .products__container__list__product--single {
