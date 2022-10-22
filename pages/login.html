@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="../css/integration.css">
+    <script src="../script.js" defer></script>
+    <title>AluraGeek - Login</title>
+</head>
+<body>
+    
+    <header class="header__desktop">
+        <div class="container flex">
+            <div class="header__container--img">
+                <a href="../index.html">
+                    <img src="../img/Logo.png" alt="Logo Alura Geek">
+                </a>
+            </div>
+            <div class="header__container--input">
+                <div class="header__container--input--search">
+                    <input type="search" placeholder="O que deseja encontrar?" class="input-field">
+                    <span class="material-symbols-outlined">search</span>
+                </div>
+            </div>
+            <div class="header__container--button">
+            </div>
+        </div>
+    </header> <!--Header-->
+
+    <header class="header__mobile">
+        <div class="container flex">
+            <div class="header__container--img">
+                <a href="index.html">
+                    <img src="/img/Logo.png" alt="Logo Alura Geek">
+                </a>
+            </div>
+            <div class="header_container--input--mobile">
+                <div class="header_container--input--mobile--search">
+                    <span class="material-symbols-outlined">search</span>
+                </div>
+            </div>
+        </div>
+    </header> <!--Header Mobile-->
+
+    <main class="main__background">
+        <section class="login">
+            <div class="container login__container">
+                <div class="login__container--form">
+                        <h1>Iniciar Sessão</h1>
+                    <form action="">
+                        <fieldset>
+                            <input name="email" id="email" type="email" placeholder="Escreva seu email" required>
+                            <span class="input-mensagem-erro">Este campo não está válido</span>
+                            <input name="senha" id="senha" type="password" placeholder="Escreva sua senha" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&*_=+-]).{6,12}$" title="A senha deve conter entre 6 a 12 catacteres, deve conter pelo menos 1 letra maiúscula e não deve conter caracteres especiais (!@#$%^&*_=+-)." required>
+                            <span class="input-mensagem-erro">Este campo não está válido</span>
+                        </fieldset>
+                    </form>
+                    <div class="login__container--form--btn">
+                        <a href="logado.html"><button class="btn-form">Entrar</button></a>
+                    </div>
+                </div>
+            </div>
+        </section> <!--Section Login-->
+    </main>
+
+    <footer>
+        <section class="footer">
+            <div class="container flex footer__col">
+                <div class="footer__col--logo">
+                    <a href="../index.html"><img src="../img/Logo.png" alt="Logo Alura Geek"></a>
+                </div>
+                <div class="footer__col--menu">
+                    <ul>
+                        <li><h3>Institucional</h3></li>
+                        <li><a href="#">Quem Somos</a></li>
+                        <li><a href="#">Política de Privacidade</a></li>
+                        <li><a href="#">Programa de Fidelidade</a></li>
+                        <li><a href="#">Nossas Lojas</a></li>
+                        <li><a href="#">Quero Ser Franqueado</a></li>
+                        <li><a href="#">Anúncie Aqui</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col--form">
+                    <label for="">Fale Conosco:</label>
+                    <input type="text" title="Nome" placeholder="André Lisboa" required>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Escreva sua mensagem" required></textarea>
+                    <input type="submit" value="Enviar">
+                </div>
+            </div>
+        </section>
+        <section class="footer__down">
+            <div>
+                <h3>&copy 2022 - Desenvolvido por Daniel Ferreira Rodrigues</h3>
+            </div>
+        </section>
+    </footer><!--Footer-->
+</body>
+</html>

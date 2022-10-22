@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="../css/integration.css">
+    <script src="../script.js" defer></script>
+    <title>AluraGeek - Adicionar Produto</title>
+</head>
+<body>
+    
+    <header class="header__desktop">
+        <div class="container flex">
+            <div class="header__container--img">
+                <a href="../index.html">
+                    <img src="../img/Logo.png" alt="Logo Alura Geek">
+                </a>
+            </div>
+            <div class="header__container--input">
+                <div class="header__container--input--search">
+                    <input type="search" placeholder="O que deseja encontrar?" class="input-field">
+                    <span class="material-symbols-outlined">search</span>
+                </div>
+            </div>
+            <div class="header__container--button">
+                <a href="logado.html"><button>Menu Administrador</button></a>
+            </div>
+        </div>
+    </header> <!--Header-->
+
+    <header class="header__mobile">
+        <div class="container flex">
+            <div class="header__container--img">
+                <a href="index.html">
+                    <img src="/img/Logo.png" alt="Logo Alura Geek">
+                </a>
+            </div>
+            <div class="header_container--input--mobile">
+                <div class="header_container--input--mobile--search">
+                    <span class="material-symbols-outlined">search</span>
+                </div>
+            </div>
+        </div>
+    </header> <!--Header Mobile-->
+
+    <main class="main__background">
+        <section class="add-product">
+            <div class="container add-product__container">
+                <div class="add-product__container--form">
+                    <h1>Adicionar novo produto</h1>
+                    <form action="">
+                        <fieldset>
+                            <input name="url" id="link-img" type="url" placeholder="informe a url da imagem" required>
+                            <span class="input-mensagem-erro">Este campo não está válido</span>
+
+                            <select name="categoria" id="categoria">
+                                <option value="">Selecione a Categoria</option>
+                                <option value="star-wars">Star Wars</option>
+                                <option value="consoles">Consoles</option>
+                                <option value="diversos">Diversos</option>
+                            </select>
+
+                            <input name="nome-produto" id="nome-produto" type="text" placeholder="informe o nome do produto" required>
+                            <span class="input-mensagem-erro">Este campo não está válido</span>
+
+                            <input name="preco-produto" id="preco-produto" type="number" placeholder="informe o preço do produto" required>
+                            <span class="input-mensagem-erro">Este campo não está válido</span>
+
+                            <textarea name="descricao-produto" id="descricao-produto" cols="30" rows="10" placeholder="Descrição do produto" required></textarea>
+                            <span class="input-mensagem-erro">Este campo não está válido</span>
+
+                        </fieldset>
+                    </form>
+                    <button class="btn-form">Adicionar</button>
+                </div>
+            </div>
+        </section> <!--Section Login-->
+    </main>
+
+    <footer>
+        <section class="footer">
+            <div class="container flex footer__col">
+                <div class="footer__col--logo">
+                    <a href="../index.html"><img src="../img/Logo.png" alt="Logo Alura Geek"></a>
+                </div>
+                <div class="footer__col--menu">
+                    <ul>
+                        <li><h3>Institucional</h3></li>
+                        <li><a href="#">Quem Somos</a></li>
+                        <li><a href="#">Política de Privacidade</a></li>
+                        <li><a href="#">Programa de Fidelidade</a></li>
+                        <li><a href="#">Nossas Lojas</a></li>
+                        <li><a href="#">Quero Ser Franqueado</a></li>
+                        <li><a href="#">Anúncie Aqui</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col--form">
+                    <label for="">Fale Conosco:</label>
+                    <input type="text" title="Nome" placeholder="André Lisboa" required>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Escreva sua mensagem" required></textarea>
+                    <input type="submit" value="Enviar">
+                </div>
+            </div>
+        </section>
+        <section class="footer__down">
+            <div>
+                <h3>&copy 2022 - Desenvolvido por Daniel Ferreira Rodrigues</h3>
+            </div>
+        </section>
+    </footer><!--Footer-->
+</body>
+</html>

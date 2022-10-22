@@ -1,0 +1,270 @@
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .container.flex.single-product {
+        padding: 40px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        width: 100%;
+    }
+
+    header .container {
+        padding: 0 20px;
+    }
+
+    .banner__container {
+        padding: 30px;
+    }
+
+    .container.flex.single-product {
+        padding: 40px;
+    }
+
+    .single-product--info h1 {
+        font-size: 40px;
+    }
+
+    .single-product--info h4 {
+        font-size: 25px;
+        margin-top: 15px;
+    }
+
+    .single-product--info p {
+        font-size: 15px;
+    }
+    
+    .products__container {
+        padding: 30px;
+    }
+
+    .products__container__list__product {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .products__container__list__product--single {
+        margin-top: 20px;
+    }
+
+    .login__container--form input,
+    .login__container--form button, 
+    .add-product__container--form input, 
+    .add-product__container--form select, 
+    .add-product__container--form textarea,
+    .add-product__container--form button {
+        width: 60%;
+    }
+
+    .footer__col {
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    .single-product--info h1 {
+        font-size: 30px;
+    }
+
+    .single-product--info h4 {
+        font-size: 20px;
+        margin-top: 8px;
+    }
+
+    .single-product--info p {
+        font-size: 13px;
+        margin-top: 10px;
+    }
+    
+    .products__container {
+        padding: 30px;
+    }
+
+    .products__container__list__product {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .products__container__list__product--single {
+        margin-top: 20px;
+        width: 18%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .header__desktop {
+        display: none;
+    }
+
+    .header__mobile {
+        display: block;
+    }
+
+    .header__mobile .container {
+        justify-content: space-between;
+    }
+    
+    .material-symbols-outlined {
+        font-size: 28px;
+    }
+
+    .login__container--form h1,
+    .add-product__container--form h1,
+    .products__container--title h1 {
+        font-size: 28px;
+    }
+
+    .products__container--title button{
+        padding: 10px;
+    }
+
+    .products {
+        padding-bottom: 25px;
+    }
+
+    .single-product {
+        padding: 64px 20px;
+    }
+
+    .single-product--img img {
+        text-align: center;
+        width: 90%;
+    }
+
+    .single-product--info p {
+        font-size: 13px;
+    }
+    
+    .products__container {
+        padding: 30px;
+    }
+
+    .products__container__list__product {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .products__container__list__product--single {
+        margin-top: 20px;
+        width: 23%;
+    }
+
+    .products__container__list__product--single--title,
+    .products__container__list__product--single--price {
+        font-size: 12px;
+    }
+
+    .products__container__list__product--single--link {
+        font-size: 14px;
+    }
+
+    .footer {
+        padding: 30px 0;
+    }
+
+    .footer__col {
+        flex-wrap: wrap;
+    }
+
+    .footer__col--logo{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .footer__col--logo img{
+        width: 40%;
+    }
+
+    .footer__col--menu,
+    .footer__col--form {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 620px) {
+
+    .products {
+        padding-bottom: 10px;
+    }
+
+    .single-product {
+        padding: 40px 20px;
+        flex-wrap: wrap;
+    }
+
+    .single-product--img,
+    .single-product--info {
+        width: 100%;
+    }
+
+    .single-product--img img {
+        text-align: center;
+        width: 80%;
+    }
+
+    .single-product--info p {
+        font-size: 14px;
+    }
+    
+    .products__container {
+        padding: 30px 20px;
+    }
+
+    .products__container__list__product--single {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        width: 31%;
+        justify-content: space-between; 
+    }
+
+    .products__container__list__product--single--title,
+    .products__container__list__product--single--price {
+        font-size: 14px;
+    }
+
+    .products__container__list__product--single--link {
+        font-size: 16px;
+    }
+
+    .footer {
+        padding: 30px 0;
+    }
+
+    .footer__col {
+        flex-wrap: wrap;
+    }
+
+    .footer__col--logo{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .footer__col--logo img{
+        width: 40%;
+    }
+
+    .footer__col--menu,
+    .footer__col--form {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .single-product--img img {
+        width: 100%;
+    }
+
+    .products__container__list__product--single {
+        width: 30%;
+    }
+}
