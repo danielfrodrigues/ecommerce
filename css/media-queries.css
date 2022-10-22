@@ -111,6 +111,19 @@
         justify-content: space-between;
     }
     
+    .header__container--img {
+        width: 30%;
+        text-align: l;
+    }
+
+    .header_container--input--mobile {
+        width: 70%;
+    }
+
+    .header_container--input--mobile--search {
+        text-align: right;
+    }
+
     .material-symbols-outlined {
         font-size: 28px;
     }
