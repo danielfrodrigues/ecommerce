@@ -103,7 +103,7 @@
 
 @media screen and (max-width: 768px) {
 
-    h1 {
+    .products__container--title h1 {
         line-height: 35px;
     }
 
