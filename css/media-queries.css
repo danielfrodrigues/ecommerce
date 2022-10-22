@@ -294,6 +294,11 @@
     .footer__col--form {
         width: 50%;
     }
+
+    .footer__col--form input[type="submit"] {
+        width: 45%;
+        padding: 8px 5px; 
+    }
 }
 
 @media screen and (max-width: 550px) {
