@@ -8,7 +8,13 @@ header {
 
 .header__mobile {
         display: none;
-    }
+        color: var(--color-cinza);
+        cursor: pointer;
+}
+    
+.header__mobile:hover {
+    color: var(--color-content);
+}
 
 header.container {
     width: 100%;
@@ -75,7 +81,7 @@ header .container > div {
 /*Section Banner*/
 
 .banner {
-    background: url(/img/banner-promocional.png) no-repeat center;
+    background: url(../img/banner-promocional.png) no-repeat center;
     background-size: cover;
     height: 350px;
     align-self: flex-end;
