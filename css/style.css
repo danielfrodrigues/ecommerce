@@ -8,11 +8,14 @@ header {
 
 .header__mobile {
         display: none;
-        color: var(--color-cinza);
-        cursor: pointer;
 }
-    
-.header__mobile:hover {
+ 
+.header_container--input--mobile--search {
+    color: var(--color-cinza);
+    cursor: pointer;
+}
+
+.header_container--input--mobile--search:hover {
     color: var(--color-content);
 }
 
