@@ -450,4 +450,10 @@
     width: 100%;
     margin: 45px 15px 0 15px;
     }
+
+    .quem-somos__data--info {
+        margin: 7px 5px;
+        padding: 10px 8px;
+    }
+
 }
