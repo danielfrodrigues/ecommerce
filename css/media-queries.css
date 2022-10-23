@@ -103,6 +103,10 @@
 
 @media screen and (max-width: 768px) {
 
+    .header__mobile {
+        height: 80px;
+    }
+
     .products__container--title h1 {
         line-height: 35px;
     }
@@ -134,7 +138,7 @@
     }
 
     .header__container--button button {
-        width: 100px;
+        width: 130px;
     }
 
     .header_container--input--mobile {
@@ -224,6 +228,10 @@
 
 @media screen and (max-width: 620px) {
 
+    .header__mobile {
+        height: 70px;
+    }
+
     .banner__container--title {
         font-size: 28px;
     }
@@ -303,9 +311,21 @@
         width: 45%;
         padding: 8px 5px; 
     }
+
+    #back-to-top {
+        bottom: 30px;
+        right: 30px;
+        padding: 7px 9px;
+        border-radius: 50%;
+    }
+
 }
 
 @media screen and (max-width: 550px) {
+
+    .header__mobile {
+        height: 55px;
+    }
 
     .header__container--button button {
         width: 90px;
