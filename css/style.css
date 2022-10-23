@@ -482,6 +482,157 @@ header .container > div {
     color:rgba(0,0,0,0.3);
 }
 
+/* Página de Política de Privacidade*/
+
+section .col__privacidade {
+    padding: 60px 20px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.col__privacidade--info {
+    margin: 20px 0;
+}
+
+.col__privacidade--info h1 {
+    font-size: 40px;
+    color: var(--color-title);
+    margin-bottom: 20px;
+}
+
+.col__privacidade--info h2 {
+    font-size: 30px;
+    color: var(--color-title);
+    margin-bottom: 10px;
+}
+
+/*Quem Somos*/
+
+.quem-somos {
+    height: 300px;
+    width: 100%;
+    background: url(../img/sessao-quem-somos.png) no-repeat center;
+    background-size: cover;
+}
+
+.quem-somos__data {
+    margin-top: -70px;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.quem-somos__data div {
+    width: 220px;
+}
+
+.quem-somos__data--info {
+    text-align: center;
+    border: 1px solid #c5c5c5;
+    border-radius: 5px;
+    background: var(--color-white);
+    display: flex;
+    flex-direction: column;
+}
+
+.quem-somos__data--info {
+    padding: 25px;
+    margin: 0 10px;
+}
+
+.quem-somos__data--info span {
+    font-size: 60px;
+    color: var(--color-secondary);
+}
+
+.quem-somos__data--info h3{
+    font-size: 30px;
+    font-family: var(--font-content);
+    font-weight: 600;
+    color: var(--color-title);
+    margin: 10px 0;
+}
+
+.quem-somos__data--info h4 {
+    font-size: 19px;
+    font-weight: 500;
+    color: var(--color-cinza);
+}
+
+.fale-conosco {
+    padding: 80px 0;
+}
+
+.fale-conosco--img,
+.fale-conosco--info {
+    width: 50%;
+}
+
+.fale-conosco--img img {
+    text-align: center;
+    width: 80%;
+    border-radius: 5px;
+    box-shadow: 5px 5px #1d1d1d23;
+}
+
+.fale-conosco--info {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.fale-conosco--info h2,
+.fale-conosco--info p,
+.fale-conosco--info button {
+    margin-top: 10px;
+}
+
+.fale-conosco--info button {
+    border: none;
+    background: var(--color-secondary);
+    color: var(--color-white);
+}
+
+.fale-conosco--info button:hover {
+    background-color: var(--color-hover);
+}
+
+.equipe {
+    padding: 30px 0 70px 0;
+}
+
+.equipe__container {
+    flex-wrap: wrap;
+}
+
+.equipe__person {
+    width: 235px;
+    margin: 0 20px;
+}
+
+.equipe--title h2{
+    margin: 0 20px 30px 20px;
+    font-size: 35px;
+
+}
+
+.equipe__person--img img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.equipe__person--info{
+    position: relative;
+    background: var(--color-white);
+    text-align: center;
+    padding: 10px;
+    margin: -20px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
 /*Footer*/
 
 .footer {
