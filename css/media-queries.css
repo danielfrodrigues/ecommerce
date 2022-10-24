@@ -439,6 +439,10 @@
         width: 45%;
     }
 
+    .quem-somos__container .container {
+        width: 100%;
+    }
+
     .quem-somos__data div {
         width: 155px;
     }
@@ -457,11 +461,11 @@
 
     
     .fale-conosco {
-        padding: 50px 0 30px 0;
+        padding: 50px 0 20px 0;
     }
 
     .quem-somos__data--info {
-        margin: 7px 5px;
+        margin: 7px 3px;
         padding: 10px 5px;
     }
 
