@@ -443,6 +443,9 @@
         width: 100%;
     }
 
+    .quem-somos__data {
+        margin-top: -55px;
+    }
     .quem-somos__data--info {
         margin: 7px 3px;
         padding: 10px 5px;
@@ -450,7 +453,6 @@
 
     .quem-somos__data--info span {
         font-size: 48px;
-        color: pink;
     }
 
     .quem-somos__data div {
