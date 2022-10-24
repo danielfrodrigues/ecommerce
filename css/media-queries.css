@@ -456,6 +456,10 @@
         padding: 50px 0 30px 0;
     }
 
+    .quem-somos__data div {
+        width: 155px;
+    }
+
     .quem-somos__data--info {
         margin: 7px 5px;
         padding: 10px 5px;
@@ -468,7 +472,6 @@
     .quem-somos__data--info h4 {
         font-size: 16px;
     }
-
 
     .equipe--title h2 {
         margin: 0 7px;
