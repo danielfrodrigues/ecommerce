@@ -443,6 +443,9 @@
         width: 45%;
     }
 
+    .quem-somos {
+        height: 200px;
+    }
     .quem-somos__container .container {
         width: 100%;
     }
