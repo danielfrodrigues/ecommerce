@@ -448,8 +448,13 @@
         padding: 10px 5px;
     }
 
+    .quem-somos__data--info span {
+        font-size: 48px;
+        color: pink;
+    }
+
     .quem-somos__data div {
-        width: 155px;
+        width: 150px;
     }
 
     .footer__col--logo img{
